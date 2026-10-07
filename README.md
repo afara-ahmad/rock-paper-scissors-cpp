@@ -2,7 +2,7 @@
 
 A console-based Rock Paper Scissors game written in C++, where you play against the computer.
 
-notepad README.md
+![Game screenshot](Images/screenshot.png)
 
 ## Features
 
