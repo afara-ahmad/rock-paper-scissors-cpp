@@ -44,20 +44,22 @@ enGameChoice ReadPlayerChoice() {
 enWinner WhoWonTheRound(stRoundInfo RoundInfo) {
 	if (RoundInfo.PlayerChoice == RoundInfo.ComputerChoice) {
 		return enWinner::Draw;
+		
 	}
 	switch (RoundInfo.PlayerChoice) {
 	case enGameChoice::Stone:
 		if (RoundInfo.ComputerChoice == enGameChoice::Paper)
 			return enWinner::Computer;
-
+		break;
 	case enGameChoice::Paper:
 		if (RoundInfo.ComputerChoice == enGameChoice::Scissors)
 			return enWinner::Computer;
-
+		break;
 
 	case enGameChoice::Scissors:
 		if (RoundInfo.ComputerChoice == enGameChoice::Stone)
 			return enWinner::Computer;
+		break;
 	}
 		return enWinner::Player1;
 }
