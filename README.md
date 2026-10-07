@@ -27,7 +27,7 @@ A console-based Rock Paper Scissors game written in C++, where you play against 
 
 1. Clone the repository:
 ```
-   git clone https://github.com/hxl7p/rock-paper-scissors-cpp.git
+   git clone https://github.com/afara-ahmad/rock-paper-scissors-cpp.git
 ```
 2. Open `Project_After.sln` in Visual Studio
 3. Press `Ctrl + F5` to build and run
